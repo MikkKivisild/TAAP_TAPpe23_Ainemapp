@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="et">
+<head>
+    <title>Harjutus6</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>Vormide loomine</h1>
+    <table>
+    <form>
+        <tr>
+            <td><label for="Username">Kasutajanimi </label></td>
+            <td><input id="UserNAme" name="Username" type="text" placeholder="max pikkus 6" maxlength="6"></td>
+        </tr>
+        <tr>
+            <td><label for="Kursus">Kursus </label></td>
+            <td><input id="kursus" name="Kursus" type="text" placeholder="max pikkus 3" maxlength="3"></td>
+        </tr>
+        <tr>
+            <td><label for="Osakonnd">Osakonna number </label></td>
+            <td><input id="Osakonna" name="Osakonnd" type="number" value="1" min="1" max="30" step="1"></td>
+        </tr>
+        <tr>
+            <td><label for="password">Parool </label></td>
+            <td><input id="password" name="password" type="password"></td>
+        </tr>
+        <tr>
+            <td><label for="service">Vali teenus </label></td>
+            <td>
+            <select id="service" name="service">
+                <option value="5">Odav 5€</option>
+                <option value="10">Keskmine 10€</option>
+                <option value="15">Kallis 15€</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="roll">Roll</label></td>
+            <td>
+                <label><input id="roll" type="radio" name="roll" value="Admin">Admin</label><br>
+                <label><input type="radio" name="roll" value="Moderator">Moderator</label><br>
+                <label><input type="radio" name="roll" value="User">User</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="CE">Nõustun tingimustega </label></td>
+            <td><input id="CE" type="checkbox" name="policy" value="policy_agree"></td>
+        </tr>
+        <tr>
+            <td><label for="Enesetutvustus">Enesetutvustus </label></td>
+            <td><textarea id="Enesetutvustus" rows="10" cols="20" name="Enesetutvustus"></textarea></td>
+        </tr>
+        <tr>
+            <td><input value="Tühjenda väljad" name="reset" type="reset"></td>
+            <td><input type="submit" value="Saada" name="Saada"></td>
+        </tr>
+    </form>
+    </table>
+</body>
+</html>

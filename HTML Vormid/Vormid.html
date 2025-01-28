@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="et">
+	<head>
+		<title>HTML Vormid</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>HTML Vormid</h1>
+		<form action="#" method="post" autocomplete>
+			<fieldset>
+			<legend>Kasutaja andmed</legend>
+				<label>
+				Kasutaja nimi: <br>
+				<input name="Username" maxlenght="20" type = "text"> <br> 
+				</label>
+				<label for = "password" >Parool:</label><br>
+				<input id = "password" name = "password" type = "password"> <br> 
+				</label>
+				<label for = "email" >E-post:</label><br>
+				<input id = "email" name = "email" type = "email"> <br>
+				<label for = "url" >Veebiaadress:</label><br>
+				<input id = "url" name = "url" type = "url"> <br>
+			</fieldset>  
+			<input formNoValidate type = "submit" values="saada valideerimata">
+			<input type = "submit" values="saada">
+			</form>
+	</body>
+</html>
+
+	<h2>Vormid 2</h2>
+	
+	<form method= "get" action= "#">
+		<input type= "search" name="search" size = "60">
+		<input type= "submit" value= "Otsi">
+		<datalist id="minu_valik">
+			<option value="php õpetused">
+			<option value="css õpetused">
+			<option value="html õpetused">
+			<option value="javascript õpetused">
+		</datalist>
+	</form>
+	
+	<h3>mitmerealine tekstikast</h3>
+	<form>
+		<lablel>essee <br>
+			<textarea rows ="10" cols="60" name="essay" placeholder ="Kirjutada essee(vähemalt 100 sõna)"> </textarea>
+		</lablel>
+	</form>
+	
+	<h3>Ajaarvamine</h3>
+	
+	<form>
+		<label>
+			<label>Kuupäev ja kellaaeg:<input type="datetime"></label><br>
+			<label>Kuupäev: <input type="date"></label><br>
+			<label>Aasta ja kuu: <input type="month"></label><br>
+			<label>Aasta ja nädal: <input type="week"></label><br>
+			<label>Kellaeg:<input type="time"> </label><br>
+			<label>Kohalik aeg: <input type="datetime-local"></label>
+		</label>
+	</form>
+	
+	<h3>Numbrid</h3>
+	
+	<from>
+		<label>Vali number:
+			<input type="number" value="1" min="1" max="5" step="0.5">
+		</label>
+		<label>Vali number:
+	    	 <input oniput = "amount.value=vahemik.value" type="range" name="vahemik" min="-10" max="10" step="2">
+		</label>
+			<output id = "amount">-10</output>
+	</from>
+	
+	<h3>Loendid</h3>
+	
+	<form>
+		<select>
+			<option value="">-- Vali värv --</option>
+			<option value="pun">Punane</option>
+			<option value="sin">Sinine</option>
+			<option value="kol">Kollane</option>
+		</select>
+	</form>
+	<form>
+		  <select size="3">
+				<option value="pun">Punane</option>
+				<option value="sin">Sinine</option>
+				<option value="kol">Kollane</option>
+		  </select>
+	</form>
+	<form>
+		<select size="3" multiple>
+			<option value="pun">Punane</option>
+			<option value="sin">Sinine</option>
+			<option value="kol">Kollane</option>
+		</select>
+	</form>
+	<form>
+		<select>
+			<optgroup label="Soojad toonid">
+			  <option value="roh">Roheline</option>
+			  <option value="sin">Sinine</option>
+			  <option value="vio">Violett</option>
+			</optgroup>
+			<optgroup label="Külmad toonid">
+			  <option value="kol">Kollane</option>
+			  <option value="ora">Oranž</option>
+			  <option value="pun">Punane</option>
+			</optgroup>
+		</select>
+	</form>
+	
+	<h3>Valikukastid</h3>
+	
+	<form method="post">
+	  <label><input type="checkbox" name="varv" value="pun">Punane</label><br>
+	  <label><input type="checkbox" name="varv" value="sin">Sinine</label><br>
+	  <label><input type="checkbox" name="varv" value="kol" checked="yes">Kollane</label><br>
+	  <label><input type="checkbox" name="varv" value="lil">Lilla</label>
+	  <input type ="submit" value="Saada">
+	</form>
+	
+	
+	<form method="post">
+	  <label><input type="radio" name="varv" value="pun">Punane</label><br>
+	  <label><input type="radio" name="varv" value="sin">Sinine</label><br>
+	  <label><input type="radio" name="varv" value="kol" checked="yes">Kollane</label><br>
+	  <label><input type="radio" name="varv" value="lil">Lilla</label>
+	  <input type ="submit" value="Saada">
+	</form>
+	
+	

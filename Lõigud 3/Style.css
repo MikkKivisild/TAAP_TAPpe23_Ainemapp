@@ -1,0 +1,39 @@
+.spec-attribute{
+    background-color: yellow;
+    border: solid 2px red;
+}
+.spec-value{
+    color:rgb(84, 84, 216);
+}
+p >:first-of-type{
+    font-weight: bold;
+    color: red;
+}
+p> :nth-of-type(3){
+    text-decoration: underline;
+}
+/*esimene lõik*/
+p:first-of-type{
+    background-color: rgb(134, 171, 134);
+    border: solid green;
+    border-style:none none solid solid;
+}
+
+p:nth-of-type(2){
+    background-color: rgb(134, 167, 185);
+    border: solid blue;
+    border-style: none none double double;
+}
+p:nth-of-type(3){
+    background-color: rgb(238, 154, 189) ;
+    border: solid purple;
+    border-style: none none solid solid;
+}
+p:nth-of-type(4){
+    border: dotted red;
+}
+p:nth-of-type(5){
+    border: dashed blue;
+    border-style: none dashed dashed none;
+
+}
