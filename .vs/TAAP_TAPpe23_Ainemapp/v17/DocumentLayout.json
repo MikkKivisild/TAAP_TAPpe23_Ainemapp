@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\opilane\\source\\repos\\TAAP_TAPpe23_Ainemapp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\opilane\\source\\repos\\TAAP_TAPpe23_Ainemapp\\agile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:agile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\opilane\\source\\repos\\TAAP_TAPpe23_Ainemapp\\waterfall.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:waterfall.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\opilane\\source\\repos\\TAAP_TAPpe23_Ainemapp\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +62,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "waterfall.html",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TAAP_TAPpe23_Ainemapp\\waterfall.html",
+              "RelativeDocumentMoniker": "waterfall.html",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\TAAP_TAPpe23_Ainemapp\\waterfall.html",
+              "RelativeToolTip": "waterfall.html",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAFEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-04T07:35:22.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "agile.html",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TAAP_TAPpe23_Ainemapp\\agile.html",
+              "RelativeDocumentMoniker": "agile.html",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\TAAP_TAPpe23_Ainemapp\\agile.html",
+              "RelativeToolTip": "agile.html",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-04T07:24:30.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TAAP_TAPpe23_Ainemapp\\index.html",
               "RelativeDocumentMoniker": "index.html",
